@@ -20,7 +20,7 @@ app.use(cookieParser());
 app.use(morgan("dev")); //HTTP request logger middleware for node.js
 
 app.get("/", (req, res) => {
-    res.send("Server running fine");
+    res.send("Server running ");
 });
 
 //routes import
