@@ -13,17 +13,3 @@ connectToDB()
         });
     })
     .catch((error) => console.log("MONGODB connection failed!!!: ", error));
-
-// import express from "express";
-
-// const app = express();
-
-// app.listen(process.env.PORT, () => {
-//     console.log(`Server is listening on: ${process.env.PORT}`);
-// });
-
-// app.get("/", (req, res) => {
-//     res.send("hello");
-// });
-
-// export default app;
