@@ -8,8 +8,8 @@
         "node": "18.x"
     },
     "scripts": {
-        "dev": "nodemon -r dotenv/config --experimental-json-modules index.js",
-        "start": "node -r dotenv/config --experimental-json-modules index.js"
+        "dev": "nodemon index.js",
+        "start": "node index.js"
     },
     "keywords": [
         "javascript",
